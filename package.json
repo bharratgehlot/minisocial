@@ -1,0 +1,16 @@
+{
+  "name": "minisocial",
+  "version": "1.0.0",
+  "description": "A college-based social networking platform built with React, Node.js, Express, and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

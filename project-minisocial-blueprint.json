@@ -1,0 +1,69 @@
+{
+  "projectName": "minisocial",
+  "projectDescription": "an college based social networking platform",
+  "timestamp": "2025-09-08T08:28:20.712Z",
+  "planning": {
+    "frontend": "React",
+    "backend": "Node.js",
+    "backendFramework": "Express",
+    "database": "MongoDB",
+    "pages": "Medium App (4-7 pages)",
+    "styling": "Bulma",
+    "compLibraries": null,
+    "featuresDetails": {
+      "UserAuthentication": "Email/password signup, login, JWT-based sessions",
+      "FileUpload": "Users can upload images or videos in posts, stored in MongoDB or cloud",
+      "EmailNotifications": "Send email when someone likes or comments on a post",
+      "MobileResponsive": "All pages must be responsive, using Bulma grid and columns"
+    }
+  },
+  "design": {
+    "primaryColor": "#FF4D6D Hot Pink",
+    "secondaryColor": "#00D4FF Neon Cyan",
+    "additionalColor": "#FFD600 Bright Yellow",
+    "fontStyle": "Poppins",
+    "fontSize": "default",
+    "navigationStyle": "Top Bar",
+    "spacingPadding": "Compact",
+    "buttonStyle": "Sharp",
+    "componentStyle": "Flat"
+  },
+  "pagesDetails": {
+    "HomeFeed": ["PostCard", "CreatePostForm", "Navbar", "Sidebar"],
+    "Profile": ["ProfileCard", "EditProfileForm", "Navbar"],
+    "Login": ["LoginForm", "Navbar"],
+    "Signup": ["SignupForm", "Navbar"],
+    "Notifications": ["NotificationList", "Navbar"]
+  },
+
+  "routes": {
+  "auth": ["/login", "/signup", "/logout"],
+  "posts": ["/create", "/read", "/update", "/delete"],
+  "users": ["/profile/:id", "/follow/:id"],
+  "notifications": ["/all"]
+},
+
+"folderStructure": {
+  "frontend": ["components/", "pages/", "services/", "assets/"],
+  "backend": ["routes/", "controllers/", "models/", "middleware/"]
+},
+
+
+
+  "code": {
+    "ideSelector": "vscode",
+    "durationOfCode": "1 week"
+  },
+  "build": {
+    "buildTool": "vite",
+    "frontEndHosting": "vercel",
+    "backendHosting": "railway",
+    "databaseHosting": "mongo-atlas",
+    "customDomain": "Not Required",
+    "generateReadme": "Yes",
+    "includeDocs": "Yes",
+    "installationGuide": "Yes",
+    "scope": "Working skeleton",
+    "askQuestions": "Yes"
+  }
+}
