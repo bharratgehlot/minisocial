@@ -11,8 +11,34 @@ MongoDB = https://cloud.mongodb.com/v2/68be9fcde2c39a0339ede0e1#/clusters/detail
 
 Feature Set:
 
+BASIC FUNCTIONALITIES -
+
+Login/Signup
+Password forgot
+Email Verify
+Password Reset
+Detailed Profiles
+User Management
+Mobile Responsive
+
 FEED - 
 A never ending feed on home page by students
 sorted from most recent
 have impression count 
 loves, hate, neutral
+
+SECRET CHAT - 
+A seperate section for secret chatting
+two random peopled will be matched
+male to male and female to female matching
+will be totally anonymous (not a single detail will be shown)
+
+RAISE AN ISSUE -
+any person can raise an issue
+others can upvote
+duplicate issues are not allowed
+
+INTERNAL COMPLAINT SYSTEM -
+students can complaint about specific issues to higher authority (if not solved by college)
+
+SOME ERP SYSTEM FEATURES -
